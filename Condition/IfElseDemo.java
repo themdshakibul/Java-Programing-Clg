@@ -41,7 +41,22 @@ public class IfElseDemo {
                 System.out.println("Odd");
             }
         }else{
-            System.out.println("Nagative");
+            System.out.println("Negative");
+        }
+
+
+
+        // Switch statement
+
+
+        int number = 13;
+
+        switch ((number % 2)){
+            case 0:
+                System.out.println("Event number the switch");
+                break;
+            default:
+                System.out.println("Odd number the switch");
         }
 
     }
