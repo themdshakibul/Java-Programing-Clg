@@ -20,16 +20,29 @@ public class IfElseDemo {
             mark, mark >= 90 A+
             mark <90 and mark > 80 > a
             mark < 80 and mark > 70 B
+            not applicable
         */
-        int mark = 90;
-        if(mark >= 90){
-            System.out.println("A+");
-        }else if(mark < 90 && mark > 80){
-            System.out.println("A");
-        }else if(mark < 80 && mark > 70){
-            System.out.println("B");
+        int mark =69;
+        if(mark >= 90){System.out.println("A+");}
+        else if(mark > 80){System.out.println("A-");}
+        else if(mark > 70){System.out.println("B");}
+        else{System.out.println("not applicable");}
+
+
+
+        // Nested if els statement
+
+        int n = 8;
+
+        if(n >= 0){
+            if(n % 2 == 1){
+                System.out.println("Even");
+            }else{
+                System.out.println("Odd");
+            }
         }else{
-            System.out.println("C");
+            System.out.println("Nagative");
         }
+
     }
 }
